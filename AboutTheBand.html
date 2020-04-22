@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Style the header */
+header {background-color: #7a988b;padding: 30px;font-family: Helvetica;text-align: center;font-size:5vw;color: white;}
+
+/* Create two columns/boxes that floats next to each other */
+nav {float: left;width: 20%;height: 1000px;background: #f2f2f2;padding: 20px;}
+
+/* Style the list inside the menu */
+nav ul {list-style-type: none;font-family: Helvetica;padding: 0;}
+
+article {float: left;padding: 20px;width: 80%;height: 1000px;background-color: #333333;text-align: center;}
+
+/* Clear floats after the columns */
+section:after {content: "";display: table;clear: both;}
+
+/* Style the footer */
+footer {background-color: #777;padding: 10px;text-align: center;color: white;}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;}}
+ a:link { color: #333333;}
+ a:hover { color: #7a988b;}
+ a:visited { color: #333333;}
+ img { max-height: 100%; max-width: 100%;
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>ONEREPUBLIC</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://66.media.tumblr.com/ee576ac8d8a5fcbd35d48bc2fce0cec7/tumblr_nuoun2tKt91u5shv1o1_640.jpg"/>
+  </nav>
+  
+  <article style="color: white";>
+ <img src="https://news.nd.edu/assets/343795/1000x562/onerepublic_press_feature.jpg"/>
+ <p>OneRepublic is a band formed in Colorado Springs, Colorado in 2002. The band originally consisted of Ryan Tedder and Zach Filkins, but as of now has 6 members(Ryan Tedder, Zach Filkins, Brent Kutzle, Drew Brown, Eddie Fisher, and Tim Myers). Although OneRepublic has been around since 2002, thier popularity didn't rise until 2007 with thier lead single (off thier first album) "Apologize", remixed by Timbaland. "Apologize" reached #1 in sixteen countries, which led the band to win a Grammy Award Nomination. OneRepublic's second album ("Waking Up") was well recieved, and it boasts many hits such as "Good Life", "Secrets", and "All the Right Moves". "Good Life" reached a top ten spot on the US Billboard Hot 100. </p>
+ <p>After a few years without any new music, the band was back with thier third studio album "Native". "Native" was thier most successful album to date, matching the success of "Apologize". "If I Lose Myself" was the lead single off the album, but the third single "Counting Stars" was even more successful. "Counting Stars" became a top five placement in the U.S., Canada, Australia, Germany, Ireland, New Zealand, and the United Kingdom. The song ultimately earned a spot of #2 on the US Billboard Hot 100. In October 2016, OneRepublic released thier fourth studio album "Oh My My". Thier fourth album didn't garner as much success as previous albums, but songs such as "Kids", "Connection", and "Wherever I Go" did reach the US Billboard Hot 100.</p>
+ <p>Currently, OneRepublic is preparing to tour for thier upcoming fith studio album "Human". There have been five singles released so far("Wanted", "Better Days", "Didn't I", "Somebody to Love", "Rescue Me"). "Human" is set to release on May 8, 2020. You can also pre-order "Human" from thier official website.</p>
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Courtney Leiding. All Rights Reserved.
+</footer>
+
+</body>
+</html>
