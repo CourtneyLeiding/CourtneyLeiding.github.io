@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Style the header */
+header {background-color: #7a988b;padding: 30px;font-family: Helvetica;text-align: center;font-size:5vw;color: white;}
+
+/* Create two columns/boxes that floats next to each other */
+nav {float: left;width: 20%;height: 1200px;background: #f2f2f2;padding: 20px;}
+
+/* Style the list inside the menu */
+nav ul {list-style-type: none;font-family: Helvetica;padding: 0;}
+
+article {float: left;padding: 20px;width: 80%;height: 1200px;background-color: #333333;text-align: center;}
+
+/* Clear floats after the columns */
+section:after {content: "";display: table;clear: both;}
+
+/* Style the footer */
+footer {background-color: #777;padding: 10px;text-align: center;color: white;}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;}}
+ a:link { color: #333333;}
+ a:hover { color: #7a988b;}
+ a:visited { color: #333333;}
+ img { max-height: 100%; max-width: 100%;}
+ p {color: white;}
+ ol {color: white; text-align: left;}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>ONEREPUBLIC</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://66.media.tumblr.com/ee576ac8d8a5fcbd35d48bc2fce0cec7/tumblr_nuoun2tKt91u5shv1o1_640.jpg"/>
+  </nav>
+  
+  <article>
+ <h1 style="font-size: 40px; color: white; border:7px dotted #7a988b;">Top Albums</h1>
+ <table align="center">
+ <tr>
+ <td><img src="https://img.discogs.com/O06tbOcz68VzsR8gR-5R10SsoHQ=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1247776-1210484951.jpeg.jpg" height="220" width="220"></td>
+ <td>
+ <ol>
+ <li>Say(All I Need)</li>
+ <li>Mercy</li>
+ <li>Stop And Stare</li>
+ <li>Apologize</li>
+ <li>Goodbye, Apathy</li>
+ <li>All Fall Down</li>
+ <li>Tyrant</li>
+ <li>Prodigal</li>
+ <li>Won't Stop</li>
+ <li>All We Are</li>
+ <li>Someone To Save You</li>
+ <li>Come Home</li>
+ <li>Apologize(Timbaland remix)</li>
+ </ol>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f4/OneRepublic_Waking_Up_cover.png"height="220" width="220"></td>
+ <td>
+ <ol>
+ <li>Made For You</li>
+ <li>All The Right Moves</li>
+ <li>Secrets</li>
+ <li>Everybody Loves Me</li>
+ <li>Missing Persons 1 &amp; 2</li>
+ <li>Good Life</li>
+ <li>All This Time</li>
+ <li>Fear</li>
+ <li>Waking Up</li>
+ <li>Marchin On</li>
+ <li>Lullaby</li>
+ </ol>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td><img src="https://upload.wikimedia.org/wikipedia/en/9/96/OneRepublic_-_Native.png"height="220" width="220"></td>
+ <td>
+ <ol>
+ <li>Counting Stars</li>
+ <li>If I Lose Myself</li>
+ <li>Feel Again</li>
+ <li>What You Wanted</li>
+ <li>I Lived</li>
+ <li>Light It Up</li>
+ <li>Can't Stop</li>
+ <li>Au Revoir</li>
+ <li>Burning Bridges</li>
+ <li>Something I Need</li>
+ <li>Preacher</li>
+ <li>Don't Look Down</li>
+ <li>Something's Gotta Give</li>
+ <li>Life In Color</li>
+ <li>What You Wanted(Acoustic)</li>
+ <li>Burning Bridges(Acoustic)</li>
+ <li>If I Lose Myself(Alesso vs OneRepublic)</li>
+ </ol>
+ </td>
+ </tr>
+ </table>
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Courtney Leiding. All Rights Reserved.
+</footer>
+
+</body>
+</html>
